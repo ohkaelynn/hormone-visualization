@@ -53,7 +53,7 @@ To run the Hormonal Health Tracker locally:
    ```
 3. Run the app:
    ```bash
-   streamlit run app.py
+   streamlit run hht.py
    ```
 
 ## Technologies Used

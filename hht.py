@@ -86,6 +86,9 @@ latest_results_with_references = pd.DataFrame(latest_results)
 latest_results_with_references['Cis Female Range'] = latest_results_with_references['Hormone'].map(
     lambda hormone: reference_ranges[hormone]['Cis Female'][0] if hormone in reference_ranges else "N/A"
 )
+latest_results_with_references['Cis Male Range'] = latest_results_with_references['Hormone'].map(
+    lambda hormone: reference_ranges[hormone]['Cis Male'][0] if hormone in reference_ranges else "N/A"
+)
 
 # Add emoji for change
 latest_results_with_references['Change Emoji'] = latest_results_with_references.apply(
@@ -93,7 +96,7 @@ latest_results_with_references['Change Emoji'] = latest_results_with_references.
 )
 
 # Select the columns to display in the final table with new headers
-final_table = latest_results_with_references[['Hormone', 'Cis Female Range', 'Value', 'Change Emoji']]
+final_table = latest_results_with_references[['Hormone', 'Cis Female Range', 'Cis Male Range', 'Value', 'Change Emoji']]
 final_table = final_table.rename(columns={'Value': 'Latest Result', 'Change Emoji': 'Change'})
 
 # Display the dataframe (latest results with reference ranges and change)

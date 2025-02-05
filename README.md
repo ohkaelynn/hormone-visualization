@@ -1,0 +1,4 @@
+- Tracking hormone changes over time.
+- Interactive plots for all hormones and specific hormone tracking.
+- Trend/Change tracking with emojis.
+- Responsive and user-friendly table for reference ranges and latest results

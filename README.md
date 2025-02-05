@@ -64,8 +64,8 @@ To run the Hormonal Health Tracker locally:
 
 ## Notes & Disclaimer
 
-This tool is intended for visualization purposes only. It is not scientifically or medically accurate and should not be used as a substitute for professional advice. The content is generated primarily with AI and is designed to help track hormone levels over time for personal use. It should not be relied upon for making health-related decisions. 
-The reference values are GLRR and were gathered by ChatGPT. These values may not be entirely accurate or applicable in all situations. Always apply your own knowledge and consult with qualified medical or health professionals for guidance tailored to your personal health goals and needs.
+This tool is intended for **visualization** purposes only. It is not **scientifically** or **medically** accurate and should not be used as a substitute for professional advice. The content is generated primarily with AI and is designed to help track hormone levels over time for personal use. It should not be relied upon for making health-related decisions. 
+The reference values are GLRR and were gathered by ChatGPT. These values may not be entirely accurate or applicable in all situations. Always apply your own knowledge and consult with **qualified** medical or health professionals for guidance tailored to your personal health goals and needs.
 
 
 

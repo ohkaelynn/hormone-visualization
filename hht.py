@@ -54,7 +54,7 @@ fig1 = px.line(data, x='Date', y='Value', color='Hormone', title='All Hormones O
 fig1.update_traces(
     mode='lines+markers',  # Adding markers to the lines
     marker=dict(
-        size=6,  # Smaller marker size
+        size=10,  # Smaller marker size
         line=dict(width=2, color='black')  # Adding a border to markers for visibility
     ),
     hoverinfo='x+y+name',  # Displaying both the date (x) and value (y) when hovering
@@ -126,7 +126,7 @@ if selected_hormone in reference_ranges:
     fig2.update_traces(
         mode='lines+markers',  # Adding markers to the lines
         marker=dict(
-            size=6,  # Smaller marker size
+            size=10,  # Smaller marker size
             color='rgb(31, 119, 180)',  # Marker color matching the line color
             symbol='circle', 
             opacity=0.8,  # Slight opacity for smoothness

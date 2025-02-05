@@ -45,7 +45,7 @@ To run the Hormonal Health Tracker locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ohkaelynn/hormonal-health-tracker.git
+   git clone https://github.com/ohkaelynn/hormone-visualization.git
    ```
 2. Install required dependencies:
    ```bash
